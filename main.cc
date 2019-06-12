@@ -32,7 +32,7 @@ int main(int argc, char* argv[]){
 
 	if(argc > 1){
 		customNumber = atoi(argv[1]);
-		if( customNumber > -500 && customNumber < 2000 ){
+		if(customNumber > -500 && customNumber < 2000){
 			pushQueue(&priQueue,customNumber);
 		}
 		else{
